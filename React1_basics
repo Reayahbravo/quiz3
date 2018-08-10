@@ -1,0 +1,28 @@
+//To generate a react project
+npm i -g create-react-app
+//we dont need to run the above step again
+
+T: create-react-app <file-name> --use-npm
+
+T: cd into project
+T: code .
+T: npm start to see project at localhost
+
+=>src/ DELETE: app.css, app.js, app.test, logo.svg
+
+~now the project wont work
+~remaining files to keep are: index.css, index.js, registerServiceWorker.
+
+=>scr/index.js
+Remove line 4 ~ app line
+DO change
+ReactDom.render(<h1>Hello World!</h1>, document.get.....)
+
+=> localhost:3000   //Hello World! will show
+
+above previous line  DO
+const QuestionDetails = () => {
+    return (
+        
+    )
+}
